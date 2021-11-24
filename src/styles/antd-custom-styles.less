@@ -1,0 +1,131 @@
+/* Override Button Styles */
+button {
+  /* Default Button */
+  &.ant-btn {
+    background: var(--raven);
+
+    &:hover {
+      color: var(--white);
+      background: var(--steel-gray);
+      border-color: var(--steel-gray);
+    }
+
+    &:active,
+    &:focus {
+      color: var(--white);
+      border-color: var(--raven);
+    }
+  }
+
+  /* Primary Button */
+  &.ant-btn.ant-btn-primary {
+    background: var(--kelly-green);
+
+    &:hover {
+      color: var(--white);
+      background: var(--green);
+      border-color: var(--green);
+    }
+
+    &:active,
+    &:focus {
+      color: var(--white);
+      border-color: var(--kelly-green);
+    }
+  }
+
+  /* Custom Actions Button */
+  &.ant-btn.ant-btn-actions {
+    background-color: var(--white);
+    border-color: var(--pale-slate);
+    color: var(--cg-blue);
+
+    &:hover {
+      color: var(--white);
+      background-color: var(--cg-blue);
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+  }
+
+  /*Custom Actions on Table*/
+  &.ant-btn.ant-btn-table-actions {
+    background-color: var(--white);
+    border-color: var(--pale-slate);
+    color: var(--cg-blue);
+    padding: 0px 8px;
+    height: 20px;
+
+    &:hover {
+      color: var(--white);
+      background-color: var(--cg-blue);
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      padding: 0px 8px;
+      height: 20px;
+    }
+  }
+}
+
+/* Override Anchor Styles */
+a {
+  &.komet-link {
+    color: var(--cg-blue);
+    text-decoration: underline;
+  }
+
+  &.muted {
+    color: var(--steel-gray);
+    text-decoration: none;
+  }
+
+  &.komet-link:hover,
+  &.muted:hover {
+    color: var(--cg-blue);
+    text-decoration: none;
+  }
+}
+
+a {
+  font-size: 12px;
+
+  &.komet-submenu-link {
+    color: var(--cg-blue);
+    text-decoration: underline;
+  }
+
+  &.muted {
+    color: var(--dark-blue);
+  }
+
+  &.komet-submenu-link:hover,
+  &.muted:hover {
+    color: var(--cg-blue);
+    text-decoration: none;
+  }
+}
+
+/* Override Table styles */
+table {
+  thead.ant-table-thead th {
+    color: var(--white);
+    background-color: var(--cg-blue) !important;
+  }
+}
+
+.ant-switch {
+  background-color: var(--raven);
+}
+
+.ant-switch-checked {
+  background-color: var(--cg-blue);
+}
+
+.sub-link-space {
+  content: "";
+  display: block;
+  font-size: 100%;
+  height: 1em;
+}
+
+.ant-row {
+  margin-right: 0px !important
+}

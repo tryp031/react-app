@@ -1,0 +1,159 @@
+body {
+  background: var(--blue-komet) !important;
+}
+
+.komet-app {
+  padding-top: 2em;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.komet-app-login {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.body-without-header {
+  padding-top: 0px;
+}
+
+.ks-text-align-center {
+  text-align: center;
+}
+
+.ks-text-align-left {
+  text-align: left;
+}
+
+.ks-text-align-right {
+  text-align: right;
+}
+
+.ks-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.ks-margin-left-5 {
+  margin-left: 5px;
+}
+
+.color-white {
+  color: var(--white) !important;
+}
+
+.color-blue-komet {
+  color: var(--curious-blue) !important;
+}
+
+.sign-in-form {
+  background-color: var(--white);
+  border-radius: 7px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 340px;
+  box-shadow: 0 0 15px 6px rgb(0 0 0 / 20%);
+}
+
+.log-in {
+  float: right !important;
+  width: 100px !important;
+}
+
+.blue-ks-button-rounded {
+  background: var(--blue-komet) !important;
+  color: var(--white) !important;
+}
+
+.ks-button-rounded {
+  border-radius: 12px !important;
+  border: 0 !important;
+  height: 25px !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  padding: 0 20px !important;
+  outline: 0 !important;
+}
+
+.container-sing-in {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.width-100 {
+  width: 100% !important;
+}
+
+.log-in-float-right {
+  float: right;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+.container-login-info {
+  background-size: cover;
+  background-image: url(https://s3.amazonaws.com/marketing.app.kometsales.com/LoginApp/Backtop.svg) !important;
+  background-position: -1px 100% !important;
+  min-height: 400px !important;
+  width: 100%;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+  flex-wrap: nowrap !important;
+  align-content: space-between !important;
+  flex-direction: column !important;
+}
+.login-image {
+  display: flex !important;
+  flex-direction: column !important;
+  align-content: top !important;
+  justify-content: top !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  min-height: 360px !important;
+  max-height: 1000px !important;
+  padding: 40px;
+}
+
+.logo {
+  float: left;
+  width: 140px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  border-radius: 12px;
+  background: var(--white);
+  justify-content: top !important;
+}
+
+.logo > div {
+  align-items: end;
+}
+
+.ant-layout-header {
+  color: var(--white) !important;
+  background: var(--blue-komet) !important;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  color: var(--white) !important;
+  background: var(--blue-komet) !important;
+}
+
+.site-layout-content {
+  min-height: 585px;
+  padding: 24px;
+  background: var(--white);
+  @media (min-height: 770px) {
+    min-height: 767px;
+  }
+}

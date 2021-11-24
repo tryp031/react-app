@@ -1,0 +1,91 @@
+:root {
+  /* Color Tokens */
+  --christi: #6bb21f;
+  --mercury: #e6e6e6;
+  --raven: #727176;
+  --white-smoke: #f6f6f6;
+  --golden-grass: #deb728;
+  --lightning-yellow: #fec624;
+  --lightning-yellow-transparent: #fec6242b;
+  --gallery: #f0f0f0;
+  --white: #ffffff;
+  --transparent: transparent;
+  --cg-blue: #117ca8;
+  --steel-gray: #46474a;
+  --green: #008500;
+  --kelly-green: #4fb600;
+  --pale-slate: #c4c4c4;
+  --black: #000000;
+  --orange: #dfb728;
+  --orange-dark: #fd6d21;
+  --quill-gray: #d9d9d9;
+  --dark-blue: #005079;
+  --light-blue: #3c8dc5;
+  --curious-blue: #3c8dc5;
+  --light-gray: #f7f7f7;
+  --spun-pearl: #a09fa5;
+  --white-smoke: #f0f0f0;
+  --coral-red: #b00320;
+  --coral-red-dark: #88081f;
+  --transparent: transparent;
+  --box-shadow-1: #00000029;
+  --box-shadow-2: #0000001f;
+  --box-shadow-3: #00000017;
+  --font-size-mini: 11px;
+  --font-size-default: 12px;
+  --font-size-small: 13px;
+  --font-size-medium: 14px;
+  --font-size-large: 15px;
+  --font-size-extra-large: 21px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black-heavy: 900;
+  --modal-size-small: 650px;
+  --modal-size-medium: 950px;
+  --modal-size-large: 1024px;
+  --silver: #cccccc;
+  --ship-gray: #47464a;
+  --blue-komet: #1386ac;
+
+  /* Font Size Tokens */
+  --font-size-sm: 13px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 34px;
+
+  /* Font Weight Tokens */
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+
+  /* Space Size Tokens */
+  --space-xxs: 10px;
+  --space-xs: 15px;
+  --space-sm: 20px;
+  --space-md: 30px;
+  --space-lg: 45px;
+  --space-xl: 60px;
+
+  /* Select sizes */
+  --select-xs: 150px;
+  --select-sm: 180px;
+  --select-md: 190px;
+  --select-lg: 200px;
+  --select-xl: 220px;
+
+  /* Input Sizes */
+  --input-xs: 150px;
+  --input-sm: 180px;
+  --input-md: 190px;
+  --input-lg: 200px;
+
+  /* Icon Sizes */
+  --icon-xs: 11px;
+  --icon-sm: 15px;
+  --icon-md: 20px;
+  --icon-lg: 30px;
+  --icon-xl: 45px;
+}
